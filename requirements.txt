@@ -1,0 +1,7 @@
+numpy
+torch
+torchvision
+torchaudio
+uproot
+h5py
+tqdm
