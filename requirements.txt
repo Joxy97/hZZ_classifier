@@ -5,3 +5,4 @@ torchaudio
 uproot
 h5py
 tqdm
+lightning

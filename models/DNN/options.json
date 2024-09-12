@@ -1,0 +1,20 @@
+{
+    "yaml_path": "/eos/user/j/jmitic/hZZ_classifier/models/DNN/event.yaml",
+
+    "model": {
+      "hidden_dims": [64, 32],
+      "activation": "ReLU",
+      "dropout": 0.3
+    },
+
+    "training": {
+      "optimizer": "Adam",
+      "loss_function": "cross_entropy",
+      "learning_rate": 0.001,
+      "num_workers": 27,
+      "shuffle": true,
+      "batch_size": 128,
+      "epochs": 20,
+      "gpus": 1
+    }
+  }

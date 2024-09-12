@@ -1,0 +1,22 @@
+DATASETS:
+  train: "data/hZZ_testing.h5"
+  test: "data/hZZ_testing.h5"
+
+INPUTS:
+  Leptons:
+    LepPt: "log_normalize"
+    LepEta: "normalize"
+    LepPhi: "none"
+  Z1:
+    Z1Mass: "normalize"
+    Z1Pt: "normalize"
+  Z2:
+    Z2Mass: "normalize"
+    Z2Pt: "normalize"
+  ZZ:
+    ZZEta: "normalize"
+    ZZMass: "normalize"
+    ZZPt: "log_normalize"
+
+LABELS:
+  labels
